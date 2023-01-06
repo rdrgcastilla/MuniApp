@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutDatosVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/rectangle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="19dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/aileron_bold"
+                        android:gravity="left"
+                        android:text="Detalles"
+                        android:textColor="#333232"
+                        android:textSize="16.7sp" />
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Fecha de Registro:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtFechaRegistro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Número de Trámite:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtNTramite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Tipo de Documento:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtTipoDocumento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Número de Documento:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtNumDocumento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Institución:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtInstitucion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Remitente:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtRemite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Número de folios:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtFolios"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Sumilla:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtSumilla"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Observaciones:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtObservaciones"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <!--Inicio-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:fontFamily="@font/aileron_semibold"
+                        android:text="Oficina de atención:"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+                    <TextView
+                        android:id="@+id/txtOficinaAtencion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aileron_bold"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="25dp"
+                        android:background="#9e9e9e" />
+                    <!--fin-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp">
+
+                        <Button
+                            android:id="@+id/btn_consulta"
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rectangle_lightblue"
+                            android:fontFamily="@font/aileron_bold"
+                            android:text="Otra consulta"
+                            android:textAllCaps="false"
+                            android:textColor="@color/White"
+                            android:textSize="17sp" />
+
+                        <Button
+                            android:id="@+id/btn_inicio"
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/retangle_orange"
+                            android:fontFamily="@font/aileron_bold"
+                            android:text="Volver"
+                            android:textAllCaps="false"
+                            android:textColor="@color/White"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

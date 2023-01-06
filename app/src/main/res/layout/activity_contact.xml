@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RootYellow"
+    tools:context="pe.mpc.muni.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/screen_container"
+        style="@style/MainScreenContainer"
+        android:background="@drawable/fondoentrada">
+
+        <LinearLayout
+            android:id="@+id/city_title"
+            style="@style/MainTitle">
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SÍGUENOS EN NUESTRAS"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="15dp" />
+
+            <TextView
+                style="@style/MainTitleSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-4dp"
+                android:fontFamily="@font/bold"
+                android:text="REDES SOCIALES"
+                android:textAllCaps="true"
+                android:textColor="@color/White"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btns_container"
+            style="@style/FancyButtonsContainer"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp">
+
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                layout="@layout/fancy_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/boton_redondo_orange"
+                android:src="@drawable/logofb" />
+
+            <ImageButton
+                android:id="@+id/btnYoutube"
+                layout="@layout/fancy_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@id/btnFacebook"
+                android:layout_toRightOf="@id/btnFacebook"
+                android:background="@drawable/boton_redondo_orange"
+                android:src="@drawable/logoyb" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="256dp"
+            app:srcCompat="@drawable/primero" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

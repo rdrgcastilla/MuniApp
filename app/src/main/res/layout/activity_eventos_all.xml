@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/White"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="26dp"
+                android:fontFamily="@font/aileron_bold"
+                android:gravity="center"
+                android:text="Consulta de Eventos"
+                android:textColor="@color/Black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="110dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/aileron_regular"
+                android:gravity="center"
+                android:text="Los últimos eventos organizados por la Municipalidad"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewBusqueda"
+        android:layout_marginTop="165dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#E6E7E8"
+        app:cardCornerRadius="10dp">
+
+        <EditText
+            android:hint="Escribe el evento de tu interés..."
+            android:inputType="text"
+            android:id="@+id/etFiltrarEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/aileron_regular"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="15dp"
+            android:textColorHint="#333232"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="15sp" />
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_marginHorizontal="15dp"
+        android:layout_below="@+id/cardViewBusqueda"
+        android:background="@drawable/boton_redondo"
+        android:id="@+id/btnBuscarEvento"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/aileron_black"
+        android:text="Buscar"
+        android:textColor="@color/White"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/btnBuscarEvento"
+        android:layout_marginTop="4dp"
+        android:id="@+id/recyclerViewEventos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:scrollbars="vertical" />
+</RelativeLayout>

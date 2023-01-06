@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category_item"
+    style="@style/CategoryItem">
+
+
+    <ImageView
+        android:id="@+id/cat_bg_image"
+        style="@style/CategoryItemBackgroundImage"
+        tools:src="@drawable/serenazgo"
+        android:contentDescription="@string/cd_category_item_bg"
+        android:tint="@color/TransparentBlack" />
+
+    <TextView
+        android:fontFamily="@font/boldme"
+        android:id="@+id/cat_item_address"
+        tools:text="av.garro 123"
+        style="@style/CategoryItemAddress" />
+
+    <TextView
+        android:fontFamily="@font/bold"
+        android:id="@+id/cat_item_title"
+        tools:text="CAÑETE"
+        style="@style/CategoryItemTitle" />
+
+    <ImageView
+        android:id="@+id/cat_item_arrow"
+        android:contentDescription="@string/cd_category_item_arr"
+        style="@style/CategoryItemArrow" />
+
+</RelativeLayout>

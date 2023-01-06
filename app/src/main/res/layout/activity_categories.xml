@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RootCategory">
+
+    <RelativeLayout
+        android:id="@+id/category_action_bar"
+        style="@style/CategoryActionBar">
+
+        <ImageButton
+            android:id="@+id/category_back_btn"
+            android:contentDescription="@string/cd_back_btn"
+            style="@style/CategoryActionBarBackButton" />
+
+        <LinearLayout
+            android:id="@+id/category_title_container"
+            style="@style/CategoryActionBarTitleContainer">
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/category_title"
+                android:text="@string/city_name"
+                style="@style/CategoryActionBarTitle" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/category_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

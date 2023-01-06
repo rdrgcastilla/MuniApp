@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RootYellow"
+    tools:context="pe.mpc.muni.MainActivity">
+
+    <ImageView
+        android:id="@+id/main_bg_image"
+        android:src="@drawable/portada"
+        android:contentDescription="@string/cd_main_bg_img"
+        style="@style/MainActivityBackgroundImage" />
+
+    <RelativeLayout
+        android:id="@+id/screen_container"
+        style="@style/MainScreenContainer">
+
+        <LinearLayout
+            android:id="@+id/city_title"
+            style="@style/MainTitleLandscape"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:id="@+id/btns_container"
+            style="@style/FancyButtonsContainer"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp">
+
+            <ImageButton
+                android:src="@drawable/document"
+                android:fontFamily="@font/bold"
+                android:id="@+id/museums_btn"
+                layout="@layout/fancy_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:textColor="@color/White"
+                android:background="@drawable/boton_redondo"
+                android:text="CONSULTA DE EXPEDIENTES"/>
+
+            <ImageButton
+                android:id="@+id/parks_btn"
+                layout="@layout/fancy_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@id/museums_btn"
+                android:layout_toRightOf="@id/museums_btn"
+                android:background="@drawable/boton_redondo"
+                android:src="@drawable/ic_palaces" />
+
+
+            <ImageButton
+                android:fontFamily="@font/bold"
+                android:text="TRANSPORTE SEGURO"
+                android:id="@+id/semana_btn"
+                layout="@layout/fancy_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/museums_btn"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/car"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/White" />
+            <ImageButton
+
+                android:src="@drawable/ic_language_black_24dp"
+                android:background="@drawable/boton_redondo"
+                layout="@layout/fancy_btn"
+                android:id="@+id/contact_btn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/parks_btn"
+                android:layout_toRightOf="@id/semana_btn"
+                android:layout_toEndOf="@id/semana_btn" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

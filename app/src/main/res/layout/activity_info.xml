@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33.8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="34.7dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_icon" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_note_icon" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="23.2dp"
+                android:fontFamily="@font/aileron_bold"
+                android:text="Info App"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="33dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:orientation="vertical"
+                    android:paddingLeft="27dp"
+                    android:paddingBottom="17dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aileron_regular"
+                        android:text="Versión 1.2"
+                        android:textColor="@color/White"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/aileron_bold"
+                        android:text="Sub Gerencia de Tecnología de la Información, Racionalización y Estadística"
+                        android:textColor="@color/White"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/aileron_regular"
+                        android:text="Municipalidad Provincial de Cañete, 2021"
+                        android:textColor="@color/White"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="Contáctanos"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="30dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:id="@+id/btn_facebook"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:fontFamily="@font/aileron_bold"
+                    android:src="@drawable/facebook"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+                <ImageButton
+                    android:id="@+id/btn_youtube"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:fontFamily="@font/aileron_bold"
+                    android:src="@drawable/youtube"
+                    android:text="Fb"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+                <ImageButton
+                    android:id="@+id/btn_web"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:fontFamily="@font/aileron_bold"
+                    android:src="@drawable/sitioweb"
+                    android:text="Fb"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+                <ImageButton
+                    android:id="@+id/btn_telefono"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:fontFamily="@font/aileron_bold"
+                    android:src="@drawable/telefono"
+                    android:text="Fb"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="Detalles"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="46dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mpc_phone" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="¿Cómo usar el app?"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/comousar"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:rotation="270"
+                    android:src="@drawable/down_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="46dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mpc_terms" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="Términos y Condiciones"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/terminos"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:rotation="270"
+                    android:src="@drawable/down_arrow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="46dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mpc_help" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="¿Necesitas ayuda?"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/help"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:rotation="270"
+                    android:src="@drawable/down_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/aileron_regular"
+                    android:text="Esta app forma parte de un proyecto de investigación. Ayúdanos a mejorar y responde la siguiente encuesta."
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="30dp">
+
+                <Button
+                    android:id="@+id/encuesta"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_lightblue"
+                    android:fontFamily="@font/aileron_bold"
+                    android:text="Encuesta"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/btn_inicio"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/retangle_orange"
+                    android:fontFamily="@font/aileron_bold"
+                    android:text="Volver al inicio"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <!--<Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:background="@drawable/rectangle_lightblue"
+                android:fontFamily="@font/aileron_bold"
+                android:text="Volver al Inicio"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="17sp" />-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

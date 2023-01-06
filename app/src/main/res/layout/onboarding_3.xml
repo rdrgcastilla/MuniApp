@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White">
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="117dp"
+        android:src="@drawable/documento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/aileron_bold"
+        android:text="Consulta de Trámite"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/aileron_regular"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Consulta el estado de tu expediente tramitado en la Municipalidad de Cañete"
+        android:layout_marginTop="21dp"/>
+
+    <TextView
+        android:fontFamily="@font/aileron_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"
+        android:text="¡Bienvenido a Muni Cañete App!"
+        android:layout_marginTop="120dp"/>
+</LinearLayout>

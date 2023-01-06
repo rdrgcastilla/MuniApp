@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/evento_item"
+    style="@style/CategoryItem"
+    android:layout_marginBottom="5dp">
+
+
+    <ImageView
+        android:id="@+id/evento_imagen_item"
+        style="@style/CategoryItemBackgroundImage"
+        tools:src="@drawable/serenazgo"
+        android:contentDescription="@string/cd_category_item_bg"
+        android:tint="@color/TransparentBlack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="48dp"
+        android:textColor="@color/LessTransparentWhite"
+        android:textSize="14sp"
+        android:fontFamily="@font/aileron_semibold"
+        android:id="@+id/hora_evento_item"
+        tools:text="Time"
+        android:layout_above="@+id/direccion_evento_item"/>
+
+    <TextView
+        android:fontFamily="@font/aileron_semibold"
+        android:id="@+id/direccion_evento_item"
+        tools:text="address"
+        android:layout_above="@+id/name_evento_item"
+        style="@style/CategoryItemAddress" />
+
+    <TextView
+        android:fontFamily="@font/aileron_bold"
+        android:id="@+id/name_evento_item"
+        tools:text="Name event"
+        style="@style/CategoryItemTitle" />
+
+    <ImageButton
+        android:background="@color/TransparentBlack"
+        android:id="@+id/flecha_evento_item"
+        android:contentDescription="@string/cd_category_item_arr"
+        style="@style/CategoryItemArrow" />
+
+</RelativeLayout>

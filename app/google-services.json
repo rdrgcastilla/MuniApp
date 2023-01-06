@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "696873081728",
+    "firebase_url": "https://municaete.firebaseio.com",
+    "project_id": "municaete",
+    "storage_bucket": "municaete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696873081728:android:91454c0ca47e6f89",
+        "android_client_info": {
+          "package_name": "pe.mpc.municaete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696873081728-60nhuci8h27kj8241nkku64g0dibgs66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.mpc.municaete",
+            "certificate_hash": "a2c338328bd0e133d2d994d4e681e6c51723152c"
+          }
+        },
+        {
+          "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfTcSjfCOiP0-ayyLs3ZBEJcleB5SxdZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696873081728:android:fbc905a7f55dad68",
+        "android_client_info": {
+          "package_name": "pe.mpc.municanete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696873081728-oq3v93s014uc0bgh9doiku1054vj7mk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.mpc.municanete",
+            "certificate_hash": "a2c338328bd0e133d2d994d4e681e6c51723152c"
+          }
+        },
+        {
+          "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfTcSjfCOiP0-ayyLs3ZBEJcleB5SxdZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696873081728:android:9e96202ad4869ffa",
+        "android_client_info": {
+          "package_name": "pe.mpc2019.municaete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696873081728-kf97pb4j09rhvjudh9r80t8mrljh13fn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.mpc2019.municaete",
+            "certificate_hash": "a2c338328bd0e133d2d994d4e681e6c51723152c"
+          }
+        },
+        {
+          "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfTcSjfCOiP0-ayyLs3ZBEJcleB5SxdZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696873081728-77e94t69c5hltqgum785sqhe0jticm57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

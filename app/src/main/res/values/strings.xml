@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Muni Cañete App</string>
+    <string name="city_name">Cañete</string>
+    <string name="consulta_deudas">Consulta tus Deudas</string>
+
+    <string name="eInternet">Error al conectarse a la base de datos, revise su conexión a internet [1.1]</string>
+    <string name="eInternet1">Error al conectarse a la base de datos, revise su conexión a internet [1.2]</string>
+    <string name="eCodigoNulo">Error, ingresé un código válido [2]</string>
+    <string name="eDatosNulo">No existe su código, intente otra vez [3]</string>
+
+    <string name="details_title">Detalles</string>
+    <string name="categories_title">Categorías</string>
+    <string name="about_section_title">Sobre el evento</string>
+    <string name="details_section_title">Detalles</string>
+    <string name="details_address_title">Dirección:</string>
+    <string name="details_hours_title">Horario:</string>
+    <string name="details_phone_title">Teléfono:</string>
+    <string name="details_call_btn">Llamar</string>
+    <string name="details_directions_btn">Obtener dirección</string>
+
+    <string name="cat_museums">Busca tu trámite</string>
+    <string name="cat_parks">El Alcalde</string>
+    <string name="cat_palaces">Sedes</string>
+    <string name="cat_monuments">Acerca de</string>
+
+    <string name="cd_back_btn">Back Button</string>
+    <string name="cd_header_img">Header Image</string>
+    <string name="cd_header_ovrl">Header Overlay</string>
+    <string name="cd_content_bg">Content Background</string>
+    <string name="cd_category_item_bg">Category Item Background</string>
+    <string name="cd_category_item_arr">Open Item</string>
+    <string name="cd_main_bg_img">Main Background Image</string>
+    <string name="cd_fancy_btn">Fancy Button Icon</string>
+    <!--NUEVO - SOLO HAY 5-->
+    <string name="cd_fancy_btn1">Fancy Button Icon</string>
+
+
+    <!--SEDES DE LA MUNICIPALIDAD PROVINCIAL DE CAÑETE-->
+    <string-array name="palaces_names">
+        <item>Palacio Municipal</item>
+        <item>Biblioteca Municipal</item>
+        <item>Central de Serenazgo</item>
+        <item>Estadio Municipal</item>
+        <item>DEMUNA</item>
+        <item>Defensa Civil</item>
+        <item>Camal Municipal</item>
+        <item>Coliseo Lolo Fernández</item>
+    </string-array>
+    <string-array name="palaces_addresses">
+        <!--MPC-->
+        <item>Jr. Bolognesi N°250 Plaza de Armas de San Vicente</item>
+        <!--BIBLIOTECA-->
+        <item>Urb. Los Libertadores Mz. B Lt. 12, San Vicente</item>
+        <!--SERENAZGO-->
+        <item>Av. Mcal. Benavides (Fte. al C.C. Megaplaza)</item>
+        <!--ESTADIO-->
+        <item>Av. Mariscal Benavides, San Vicente</item>
+        <!--DEMUNA-->
+        <item>Av. 28 de Julio 388, San Vicente</item>
+        <!--DEFENSA CIVIL-->
+        <item>Estadio Municipal "Roberto Yáñez", Primer Piso</item>
+        <!--CAMAL MUNICIPAL-->
+        <item>Av. Santa Rosalia s/n</item>
+        <!--COLISEO-->
+        <item>Av. Mariscal Benavides, San Vicente</item>
+
+    </string-array>
+    <string-array name="palaces_descriptions">
+        <!--MPC-->
+        <item>La Municipalidad Provincial de Cañete trabaja para buscar el equilibrio entre el desarrollo económico de la ciudad, las actividades promocionales y eficientes servicios públicos; y tener una ciudad moderna, segura, altamente competitiva y con habitantes de excelente calidad de vida.</item>
+        <!--BIBLIOTECA-->
+        <item>La historia de la Biblioteca Municipal de Cañete, Hipólito Unanue, se remonta hacia los albores de nuestra creación política como provincia. El auditorio Jesús Garro Muñante se convirtió en el complemento perfecto para convertir esta zona de la capital cañetana en un baricentro del saber y las artes.</item>
+        <!--SERENAZGO-->
+        <item>El cuerpo de Serenazgo de la Municipalidad Provincial de Cañete cuenta con personal altamente capacitado y entrenado para brindar una seguridad efectiva a la población cañetana. Está a tu servicio las 24 horas del día.</item>
+        <!--ESTADIO MUNICIPAL-->
+        <item>El Estadio Municipal “Roberto Yáñez” es un recinto deportivo para la práctica de fútbol.</item>
+        <!--DEMUNA-->
+        <item>La Defensoría Municipal del Niño y del Adolescente (DEMUNA) es un servicio encargado de proteger y promover los derechos de los niños, y adolescentes en la jurisdicción de la municipalidad.</item>
+        <!--DEFENSA CIVIL-->
+        <item>Es el órgano de línea encargado de preparar a la población para afrontar las situaciones de emergencia y/o desastres naturales y brindar los servicios de Defensa Civil en la jurisdicción de la capital de la provincia de Cañete, cuando estos se requieran, coordinando con las demás municipalidades en el ámbito de la jurisdicción de la provincia de Cañete.</item>
+        <!--CAMAL-->
+        <item>La Oficina Administrativa del Camal Municipal es la unidad orgánica encargada de planificar, programar y ejecutar las actividades sobre el beneficio de animales.</item>
+        <!--COLISEO-->
+        <item>Este gran coloso deportivo conocido como "Lolo Fernández" es cuna de grandes atletas cañetanos, alberga cientos de espectadores en grandes eventos deportivos como campeonatos de fútbol, vóley, básket y otros. En el 2018, fue recinto de la Copa Panamericana 2018, donde nuestra Selección Peruana de Vóley tuvo una actuación notable.</item>
+    </string-array>
+    <string-array name="palaces_hours">
+        <!--MPC-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--BIBLIOTECA-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--SERENAZGO-->
+        <item>Las 24 horas del día</item>
+        <!--ESTADIO-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--DEMUNA-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--DEFENSA CIVIL-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--CAMAL MUNICIPAL-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+        <!--COLISEO-->
+        <item>Enero &#8211; Marzo (Lunes &#8211; Viernes): 07:15&#8211;14:00\nAbril &#8211; Diciembre (Lunes &#8211; Viernes): 8:00&#8211;13:00 y 14:15&#8211;17:00</item>
+    </string-array>
+    <string-array name="palaces_phones">
+        <!--MPC-->
+        <item>(01) 5811560</item>
+        <!--BIBLIOTECA-->
+        <item>+51 981467868</item>
+        <!--SERENAZGO-->
+        <item>(01) 5811050</item>
+        <!--ESTADIO-->
+        <item>(01) 5811560</item>
+        <!--DEMUNA-->
+        <item>(01) 5892785</item>
+        <!--DEFENSA CIVIL-->
+        <item>+51 966605088</item>
+        <!--CAMAL MUNICIPAL-->
+        <item>+01 5812101</item>
+        <!--GALERIA-->
+        <item>+51 5811560</item>
+    </string-array>
+    <string-array name="palaces_url">
+        <!--MPC-->
+        <item>https://www.google.com/maps/dir//Provincial+Municipality+of+Ca%C3%B1ete,+Bolognesi,+San+Vicente+de+Ca%C3%B1ete/@-13.0778482,-76.422833,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x910ff937cc4e3f5b:0xa4751f3d52eb4cf6!2m2!1d-76.3878134!2d-13.0778506!3e0</item>
+        <!--BIBLIOTECA-->
+        <item>https://www.google.com/maps/dir//Biblioteca+Municipal,+San+Vicente+de+Ca%C3%B1ete/@-13.0755956,-76.4217636,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x910ff948023c9477:0xfff382751b6f7bab!2m2!1d-76.386744!2d-13.075598!3e0</item>
+        <!--SERENAZGO-->
+        <item>https://www.google.com/maps/dir//-13.0746656,-76.3735369/@-13.0736855,-76.375521,17z/data=!4m2!4m1!3e0</item>
+        <!--ESTADIO-->
+        <item>https://www.google.com/maps/dir//Estadio+Roberto+Ya%C3%B1ez,+%C3%93valo+Bolognesi,+San+Vicente+de+Ca%C3%B1ete/@-13.0736795,-76.4097816,13870m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x910ff95ab09bd4ab:0xf2673f62267a8f90!2m2!1d-76.374762!2d-13.0736819!3e0</item>
+        <!--DEMUNA-->
+        <item>https://www.google.com/maps/dir//-13.0843359,-76.3870629/@-13.0842289,-76.3890614,867m/data=!3m2!1e3!4b1!4m2!4m1!3e0</item>
+        <!--DEFENSA CIVIL-->
+        <item>https://www.google.com/maps/dir//-13.0843359,-76.3870629/@-13.0842289,-76.3890614,867m/data=!3m2!1e3!4b1!4m2!4m1!3e0</item>
+        <!--CAMAL MUNICIPAL-->
+        <item>https://www.google.com/maps/dir//Prolongacion+Jos%C3%A9+G%C3%A1lvez,+San+Vicente+de+Ca%C3%B1ete+15701/@-13.0789884,-76.3871041,876m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x910ff9492602cb93:0xb331580d1fcb03de!2m2!1d-76.381935!2d-13.07806</item>
+        <!--GALERIA-->
+        <item>https://www.google.com/maps/dir//Coliseo+Lolo+Fernandez,+Av.+Mariscal+Benavides,+San+Vicente+de+Ca%C3%B1ete+15701/@-13.0739148,-76.4033172,14019m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x910ff959e13ad1c5:0x1420cafa9873a88d!2m2!1d-76.3682976!2d-13.0739172</item>
+    </string-array>
+    <!--SEDES DE LA MUNICIPALIDAD PROVINCIAL DE CAÑETE-->
+
+    <!-- TITULOS DE NUEVOS MODULOS-->
+    <string name="ingrese_placa">INGRESE N° DE PLACA</string>
+    <string name="reporte_name">REPORTAR VEHICULO</string>
+    <string name="spinner">Seleccione transporte</string>
+    <string name="numero_placa">Numero de placa</string>
+    <string name="nombre_correo">Su nombre/correo electrónico</string>
+    <string name="hacer_reporte">¡GRACIAS!\n EN BREVE SE HARA EL \n REPORTE</string>
+    <string name="ingresar_codigo">INGRESE SU CÓDIGO\n DE ACCESO</string>
+    <!-- TITULOS DE NUEVOS MODULOS-->
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- RECORTE DE VIDEO-->
+    <string name="trimming_progress">Trimming your video...</string>
+    <string name="video_saved_at">Video saves at : $%1s</string>
+</resources>
